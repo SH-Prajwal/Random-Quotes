@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const apiCall = async () => {
-    const url = "https://api.freeapi.app/api/v1/public/quotes/quote/random";
+    const url = "";
     const response = await fetch(url);
     if (!response.ok) {
       alert("Our Server May be Busy! Please try again later.");
